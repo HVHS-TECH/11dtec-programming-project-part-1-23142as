@@ -14,3 +14,17 @@
         font-size: 15px;
         text-align: left;
     }
+.container2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: white;
+        padding: 10px;
+    }
+
+    .container2>div {
+        background-color:  white;
+        border: 1px solid black;
+        padding: 10px;
+        font-size: 15px;
+        text-align: left;
+    }
