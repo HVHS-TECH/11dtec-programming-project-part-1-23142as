@@ -1,9 +1,4 @@
- .flex-container {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: nowrap;
-        background-color: #0e0d0d;
-    }
+ 
 
     .container {
         display: grid;
