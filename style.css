@@ -28,3 +28,42 @@
         font-size: 15px;
         text-align: left;
     }
+
+.Sshorts {
+float: center;
+
+}
+
+.Nshorts {
+float: left;
+}
+
+.Sshirts {
+float: center;
+
+}
+
+.Nshirts {
+float: left;
+}
+
+.Spants {
+float: center;
+
+}
+
+.Npants {
+float: left;
+}
+
+.Nhoodie {
+float: left;
+}
+
+.Ncrew {
+float: left;
+}
+
+.Ntech {
+float: left;
+}
