@@ -1,4 +1,4 @@
-function start () {
+function BuyNow () {
 getFavColour();
 getFavAge();
 getMoney();
