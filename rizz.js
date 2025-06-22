@@ -2,6 +2,12 @@ function button () {
 getFavColour();
 getFavAge();
 getMoney();
+getname();
+}
+
+function getFavColour () {
+getname = prompt("What is your name?")
+alert("Your name is: " + getname)
 }
 
 function getFavColour () {
