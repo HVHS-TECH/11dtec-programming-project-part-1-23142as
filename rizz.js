@@ -5,7 +5,7 @@ getMoney();
 getname();
 }
 
-function getFavColour () {
+function getname () {
 getname = prompt("What is your name?")
 alert("Your name is: " + getname)
 }
