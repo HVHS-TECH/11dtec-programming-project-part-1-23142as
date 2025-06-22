@@ -1,13 +1,14 @@
 function button () {
+getName();
 getFavColour();
 getFavAge();
 getMoney();
-getname();
+
 }
 
-function getname () {
-getname = prompt("What is your name?")
-alert("Your name is: " + getname)
+function getName () {
+getName = prompt("What is your name?")
+alert("Your name is: " + getName)
 }
 
 function getFavColour () {
