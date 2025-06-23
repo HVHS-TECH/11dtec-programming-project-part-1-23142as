@@ -1,7 +1,7 @@
 function button () {
 getName();
 getFavColour();
-getFavAge();
+getFaAge();
 getMoney();
 
 }
@@ -10,14 +10,19 @@ function getName () {
 getName = prompt("What is your name?")
 alert("Your name is: " + getName)
 }
-
+let userFavColor
+let userFavColorValid = false;
 function getFavColour () {
-userFavColour = prompt("What item are you looking for?")
-alert("You are looking for: " + userFavColour)
+
+  userFavColor = prompt("What would you like to buy?");
+if (userFavColor == "Nike Tech" || userFavColor == "Nike Fleece CS Crew" || userFavColor == "Nike Hoodie" || userFavColor == "Nike Fleece Sweatpants" || userFavColor == "Nike T-shirts" || userFavColor == "Nike Cardinal Nylon Shorts"){
+  alert("You are looking for: " + userFavColor)
+} else { alert("That is not an option")
+
 }
 
 function getFavAge () {
-userFavAge = prompt("What size are you looking for Between\n XS\n S\n m\n L\n XL\n XXL\n Sorry but they are the only size that's available currtenly!")
+userFavAge = prompt("These are the size available\n XS\n S\n m\n L\n XL\n XXL\n Choose the one that will fit you.")
 alert("So you want: " + userFavAge + " size.")
 }
 
@@ -31,4 +36,4 @@ alert("Your pocket money is " +clientMoney+ " dollars.\n You can afford a chocol
 
 }
 }
-
+}
