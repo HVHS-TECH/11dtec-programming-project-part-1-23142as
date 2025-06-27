@@ -1,5 +1,5 @@
 
-
+//Here are the array
 let userName; 
 let userChoice;
 let userSeats;
@@ -8,7 +8,7 @@ let choice;
 let userDays;
 let answer = 0;
 var ten = 10;
-
+//This is the main code to make the questions work.
 function start() {
     userName = prompt("I'm Adarsh. I will be helping you select your car?\nWhats your name?");
     alert("Hello " + userName + " welcome to Honda's car rentals");
